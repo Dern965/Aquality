@@ -1,0 +1,99 @@
+﻿{
+    "Routes": [
+        {
+            "DownstreamPathTemplate": "/Carritos",
+            "DownstreamScheme": "https",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 7260
+                }
+            ],
+
+            "UpstreamPathTemplate": "/Carritos",
+            "UpstreamHttpMethod": [ "GET", "POST", "PATCH", "DELETE" ]
+        },
+
+        {
+            "DownstreamPathTemplate": "/Especies",
+            "DownstreamScheme": "https",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 7260
+                }
+            ],
+            "UpstreamPathTemplate": "/Especies",
+            "UpstreamHttpMethod": [ "GET", "POST", "PATCH", "DELETE" ]
+        },
+
+        {
+            "DownstreamPathTemplate": "/Historiales",
+            "DownstreamScheme": "https",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 7260
+                }
+            ],
+            "UpstreamPathTemplate": "/Historiales",
+            "UpstreamHttpMethod": [ "GET", "POST", "PATCH", "DELETE" ]
+        },
+
+        {
+            "DownstreamPathTemplate": "/Ordenes",
+            "DownstreamScheme": "https",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 7260
+                }
+            ],
+            "UpstreamPathTemplate": "/Ordenes",
+            "UpstreamHttpMethod": [ "GET", "POST", "PATCH", "DELETE" ]
+        },
+
+        {
+            "DownstreamPathTemplate": "/Productos",
+            "DownstreamScheme": "https",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 7260
+                }
+            ],
+            "UpstreamPathTemplate": "/Productos",
+            "UpstreamHttpMethod": [ "GET", "POST", "PATCH", "DELETE" ]
+        },
+
+        {
+            "DownstreamPathTemplate": "/Tiendas",
+            "DownstreamScheme": "https",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 7260
+                }
+            ],
+            "UpstreamPathTemplate": "/Tiendas",
+            "UpstreamHttpMethod": [ "GET", "POST", "PATCH", "DELETE" ]
+        },
+
+        {
+            "DownstreamPathTemplate": "/Usuarios",
+            "DownstreamScheme": "https",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 7260
+                }
+            ],
+            "UpstreamPathTemplate": "/Usuarios",
+            "UpstreamHttpMethod": [ "GET", "POST", "PATCH", "DELETE" ]
+        }
+    ],
+
+    "GlobalConfiguration": {
+        "BaseUrl": "https://localhost:7172"
+    }
+}

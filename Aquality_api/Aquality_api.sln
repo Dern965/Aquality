@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aquality_api", "Aquality_api\Aquality_api.csproj", "{3A3DB2FF-CFD1-4484-B0A9-CAFF91603401}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway", "ApiGateway\ApiGateway.csproj", "{0C5FEFF2-BE1F-4A39-B853-17E056AD59DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A3DB2FF-CFD1-4484-B0A9-CAFF91603401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A3DB2FF-CFD1-4484-B0A9-CAFF91603401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A3DB2FF-CFD1-4484-B0A9-CAFF91603401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A3DB2FF-CFD1-4484-B0A9-CAFF91603401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C5FEFF2-BE1F-4A39-B853-17E056AD59DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C5FEFF2-BE1F-4A39-B853-17E056AD59DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C5FEFF2-BE1F-4A39-B853-17E056AD59DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C5FEFF2-BE1F-4A39-B853-17E056AD59DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B064A15-8FCF-4C74-8037-5F9086702B79}
+	EndGlobalSection
+EndGlobal
