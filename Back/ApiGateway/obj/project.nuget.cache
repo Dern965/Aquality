@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "19dPcyqCnjZgXaz7xf/V091/bRUBTVbaHxq2iXEkU2S8TsZ/g3Bxle66HyRPVQrZ78kt619sSaQq1OEvhxNmCw==",
+  "dgSpecHash": "6f0GCD88q+q5chzQhwT/MG1ZVaYMB/nHXq6L/Qe1jBVmFy3bFA48raaekzIkTFlMjqPbmCo9yfCT9QT3P7UHgA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jurge\\Documents\\ESCOM\\4to semestre\\4AM1\\D. de A. Web\\Proyecto\\Aquality_api\\ApiGateway\\ApiGateway.csproj",
+  "projectFilePath": "C:\\Users\\jurge\\Desktop\\Aquality\\Back\\ApiGateway\\ApiGateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jurge\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
     "C:\\Users\\jurge\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.1\\microsoft.aspnetcore.jsonpatch.6.0.1.nupkg.sha512",
