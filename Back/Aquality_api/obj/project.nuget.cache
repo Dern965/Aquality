@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "95cMJ0ksnosyYRg+U++7xseuNrEBn2ZyiE72X+S+z2l4M4Dgw1Z9gXs/UdwnSWyzeVHwwi2aPQRN79NV+IbZog==",
+  "dgSpecHash": "XdIItu+UcWtvN2eRmmo42yOaSGFoVqB32LJXibGbfSKXRzsX15NVPC9tRInRyUdhXfGqPZ3tCrh3ZPSgBPvCLg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dern9\\Desktop\\Aquality\\Back\\Aquality_api\\Aquality_api.csproj",
+  "projectFilePath": "C:\\Users\\dern9\\OneDrive\\Escritorio\\Aquality\\Back\\Aquality_api\\Aquality_api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dern9\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\dern9\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
