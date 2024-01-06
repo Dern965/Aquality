@@ -18,10 +18,10 @@ namespace Aquality_api.Context
         protected override void OnConfiguring(DbContextOptionsBuilder builder)
         {
             //Jurgen
-            builder.UseMySQL("server=localhost; database=aquality; user=root; password=Jur63nqetu$");
+            //builder.UseMySQL("server=localhost; database=aquality; user=root; password=Jur63nqetu$");
 
             //Eduardo
-            //builder.UseMySQL("server=localhost; database=aquality; user=root; password=admin");
+            builder.UseMySQL("server=localhost; database=aquality; user=root; password=admin");
         }
         protected override void OnModelCreating(ModelBuilder builder)
         {

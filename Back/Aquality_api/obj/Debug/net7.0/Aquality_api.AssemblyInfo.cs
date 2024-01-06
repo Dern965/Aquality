@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Aquality_api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8da25cc7172b54c45a69a774f10ab82c8d1269d1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Aquality_api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Aquality_api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
