@@ -1,7 +1,7 @@
 ﻿{
     "Routes": [
         {
-            "DownstreamPathTemplate": "/Carritos",
+            "DownstreamPathTemplate": "/CarritosController",
             "DownstreamScheme": "https",
             "DownstreamHostAndPorts": [
                 {
@@ -11,11 +11,11 @@
             ],
 
             "UpstreamPathTemplate": "/Carritos",
-            "UpstreamHttpMethod": [ "GET", "POST", "PATCH", "DELETE" ]
+            "UpstreamHttpMethod": []
         },
 
         {
-            "DownstreamPathTemplate": "/Especies",
+            "DownstreamPathTemplate": "/EspeciesController",
             "DownstreamScheme": "https",
             "DownstreamHostAndPorts": [
                 {
@@ -24,11 +24,11 @@
                 }
             ],
             "UpstreamPathTemplate": "/Especies",
-            "UpstreamHttpMethod": [ "GET", "POST", "PATCH", "DELETE" ]
+            "UpstreamHttpMethod": []
         },
 
         {
-            "DownstreamPathTemplate": "/Historiales",
+            "DownstreamPathTemplate": "/HistorialesController",
             "DownstreamScheme": "https",
             "DownstreamHostAndPorts": [
                 {
@@ -37,11 +37,11 @@
                 }
             ],
             "UpstreamPathTemplate": "/Historiales",
-            "UpstreamHttpMethod": [ "GET", "POST", "PATCH", "DELETE" ]
+            "UpstreamHttpMethod": []
         },
 
         {
-            "DownstreamPathTemplate": "/Ordenes",
+            "DownstreamPathTemplate": "/OrdenesController",
             "DownstreamScheme": "https",
             "DownstreamHostAndPorts": [
                 {
@@ -50,11 +50,11 @@
                 }
             ],
             "UpstreamPathTemplate": "/Ordenes",
-            "UpstreamHttpMethod": [ "GET", "POST", "PATCH", "DELETE" ]
+            "UpstreamHttpMethod": []
         },
 
         {
-            "DownstreamPathTemplate": "/Productos",
+            "DownstreamPathTemplate": "/ProductosController",
             "DownstreamScheme": "https",
             "DownstreamHostAndPorts": [
                 {
@@ -63,11 +63,11 @@
                 }
             ],
             "UpstreamPathTemplate": "/Productos",
-            "UpstreamHttpMethod": [ "GET", "POST", "PATCH", "DELETE" ]
+            "UpstreamHttpMethod": []
         },
 
         {
-            "DownstreamPathTemplate": "/Tiendas",
+            "DownstreamPathTemplate": "/TiendasController",
             "DownstreamScheme": "https",
             "DownstreamHostAndPorts": [
                 {
@@ -76,11 +76,11 @@
                 }
             ],
             "UpstreamPathTemplate": "/Tiendas",
-            "UpstreamHttpMethod": [ "GET", "POST", "PATCH", "DELETE" ]
+            "UpstreamHttpMethod": []
         },
 
         {
-            "DownstreamPathTemplate": "/Usuarios",
+            "DownstreamPathTemplate": "/UsuariosController",
             "DownstreamScheme": "https",
             "DownstreamHostAndPorts": [
                 {
@@ -89,7 +89,7 @@
                 }
             ],
             "UpstreamPathTemplate": "/Usuarios",
-            "UpstreamHttpMethod": [ "GET", "POST", "PATCH", "DELETE" ]
+            "UpstreamHttpMethod": []
         }
     ],
 

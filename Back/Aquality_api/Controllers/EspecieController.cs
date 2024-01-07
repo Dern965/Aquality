@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Scaffolding.Metadata;
 namespace Aquality_api.Controllers
 {
     [ApiController]
-    [Route("Especies")]
+    [Route("EspeciesController")]
     public class EspecieController : ControllerBase
     {
         [HttpGet]

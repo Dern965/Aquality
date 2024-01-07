@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Scaffolding.Metadata;
 namespace Aquality_api.Controllers
 {
     [ApiController]
-    [Route("Historiales")]
+    [Route("HistorialesController")]
     public class HistorialController : ControllerBase
     {
         [HttpGet]

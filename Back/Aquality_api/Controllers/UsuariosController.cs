@@ -8,7 +8,7 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace Aquality_api.Controllers
 {
-    [Route("Usuarios")]
+    [Route("UsuariosController")]
     [ApiController]
     public class UsuariosController : ControllerBase
     {
