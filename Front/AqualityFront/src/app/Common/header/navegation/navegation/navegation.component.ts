@@ -14,7 +14,8 @@ export class NavegationComponent {
     {titulo: "Conócenos", url: "/about"},
     {titulo: "Ubicación", url: "/location"},
     {titulo: "Tiendas", url: "/stores"},
-    {titulo: "Productos", url: "/products"},
+    {titulo: "Productos", url: "/products"},,
+    {titulo: "Registro", url: "/register"}
   ];
 }
 
