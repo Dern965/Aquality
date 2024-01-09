@@ -7,6 +7,7 @@ namespace Aquality_api.Context
 {
     public class AqualityContext : DbContext
     {
+        // Define los conjuntos de entidades para cada modelo.
         public DbSet<CarritoModel> Carritos {  get; set; }
         public DbSet<EspecieModel> Especies { get; set; }
         public DbSet<HistorialModel> Historiales { get; set; }
@@ -15,18 +16,22 @@ namespace Aquality_api.Context
         public DbSet<TiendaModel> Tiendas { get; set; }
         public DbSet<UsuarioModel> Usuarios { get; set; }
 
+        // Configura las opciones de la conexión a la base de datos.
         protected override void OnConfiguring(DbContextOptionsBuilder builder)
         {
+            // Configuración para conectar a MySQL.
             //Jurgen
             //builder.UseMySQL("server=localhost; database=aquality; user=root; password=Jur63nqetu$");
 
             //Eduardo
             builder.UseMySQL("server=localhost; database=aquality; user=root; password=admin");
         }
+        // Configura el modelo de datos y las relaciones entre entidades.
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
 
+            // Configuración de cada entidad con sus propiedades y claves primarias.
             builder.Entity<CarritoModel>(e =>
             {
                 e.HasKey(u => u.idCarrito);
@@ -34,6 +39,7 @@ namespace Aquality_api.Context
                 e.Property(u => u.productos);
             });
 
+            // Se repite este patrón para cada entidad en el modelo.
             builder.Entity<EspecieModel>(e =>
             {
                 e.HasKey(u => u.especie);

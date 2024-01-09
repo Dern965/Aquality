@@ -9,7 +9,5 @@
         public string precio { get; set;}
         public string disponibilidad { get; set;}
         public string idTienda { get; set;}
-
-        //public TiendaModel idTienda { get; set;}
     }
 }

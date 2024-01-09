@@ -11,7 +11,5 @@
         public string consejos { get; set; }
         public string poblacion { get; set; }
         public string idProductos { get; set; }
-
-        //public ProductoModel idProductos { get; set; }
     }
 }

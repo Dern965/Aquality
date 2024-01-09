@@ -12,7 +12,5 @@
         public int birth_Month { get; set; }
         public int birth_Year { get; set; }
         public string idHistorial { get; set; }
-
-        //public HistorialModel idHistorial { get; set; }
     }
 }
