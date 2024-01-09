@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dern9\\Desktop\\Aquality\\Back\\ApiGateway\\ApiGateway.csproj": {}
+    "C:\\Users\\jurge\\Desktop\\Aquality\\Back\\ApiGateway\\ApiGateway.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dern9\\Desktop\\Aquality\\Back\\ApiGateway\\ApiGateway.csproj": {
+    "C:\\Users\\jurge\\Desktop\\Aquality\\Back\\ApiGateway\\ApiGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dern9\\Desktop\\Aquality\\Back\\ApiGateway\\ApiGateway.csproj",
+        "projectUniqueName": "C:\\Users\\jurge\\Desktop\\Aquality\\Back\\ApiGateway\\ApiGateway.csproj",
         "projectName": "ApiGateway",
-        "projectPath": "C:\\Users\\dern9\\Desktop\\Aquality\\Back\\ApiGateway\\ApiGateway.csproj",
-        "packagesPath": "C:\\Users\\dern9\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dern9\\Desktop\\Aquality\\Back\\ApiGateway\\obj\\",
+        "projectPath": "C:\\Users\\jurge\\Desktop\\Aquality\\Back\\ApiGateway\\ApiGateway.csproj",
+        "packagesPath": "C:\\Users\\jurge\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jurge\\Desktop\\Aquality\\Back\\ApiGateway\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dern9\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jurge\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -73,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
