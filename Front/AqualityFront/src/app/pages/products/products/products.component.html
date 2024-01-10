@@ -1,5 +1,7 @@
-<section class="text-gray-400 bg-gray-800 body-font">
-  <!--<div class="container px-5 py-24 mx-auto">
+<section class="text-gray-400 bg-gray-900 body-font">
+  <div class="container px-5 py-10 mx-auto">
+    <h1 class="sm:text-3xl text-2xl font-medium title-font text-center text-white mb-10">
+      Mariscos frescos</h1>
     <div class="flex flex-wrap -m-4">
       <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
         <a class="block relative h-48 rounded overflow-hidden">
@@ -11,10 +13,89 @@
           <p class="mt-1">$16.00</p>
         </div>
       </div>
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/421x261">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+          <h2 class="text-white title-font text-lg font-medium">Shooting Stars</h2>
+          <p class="mt-1">$21.15</p>
+        </div>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/422x262">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+          <h2 class="text-white title-font text-lg font-medium">Neptune</h2>
+          <p class="mt-1">$12.00</p>
+        </div>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/423x263">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+          <h2 class="text-white title-font text-lg font-medium">The 400 Blows</h2>
+          <p class="mt-1">$18.40</p>
+        </div>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/424x264">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+          <h2 class="text-white title-font text-lg font-medium">The Catalyzer</h2>
+          <p class="mt-1">$16.00</p>
+        </div>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/425x265">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+          <h2 class="text-white title-font text-lg font-medium">Shooting Stars</h2>
+          <p class="mt-1">$21.15</p>
+        </div>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/427x267">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+          <h2 class="text-white title-font text-lg font-medium">Neptune</h2>
+          <p class="mt-1">$12.00</p>
+        </div>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/428x268">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+          <h2 class="text-white title-font text-lg font-medium">The 400 Blows</h2>
+          <p class="mt-1">$18.40</p>
+        </div>
+      </div>
     </div>
-  </div>-->
+  </div>
+</section>
+
+
+
+
+
+
+<!--
+<section class="text-gray-400 bg-gray-800 body-font">
   <div class="container px-5 py-24 mx-auto">
-    <!-- Contenedor flexible con estilos específicos y espacio entre elementos -->
+    <!- Contenedor flexible con estilos específicos y espacio entre elementos ->
     <form (ngSubmit)="enviarFormulario()" #formulario="ngForm">
         <div
             class="lg:w-1/3 md:w-1/2 bg-gray-200 rounded-lg p-8 flex mx-auto flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md"
@@ -68,8 +149,7 @@
                   [(ngModel)]="nuevaEspecie.adaptabilidad"
                   class="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   required
-                  #Adaptabilidad="ngModel"
-              />
+                  #Adaptabilidad="ngModel"/>
             </div>
 
             <div class="relative mb-4">
@@ -81,8 +161,7 @@
                   [(ngModel)]="nuevaEspecie.amenazas"
                   class="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   required
-                  #Amenazas="ngModel"
-              />
+                  #Amenazas="ngModel"/>
             </div>
             <div class="relative mb-4">
               <label for="Contaminacion" class="leading-7 text-sm text-gray-600">Contaminacion</label>
@@ -93,8 +172,7 @@
                   [(ngModel)]="nuevaEspecie.contaminacion"
                   class="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   required
-                  #Contaminacion="ngModel"
-              />
+                  #Contaminacion="ngModel"/>
             </div>
             <div class="relative mb-4">
               <label for="Consejos" class="leading-7 text-sm text-gray-600">Consejos</label>
@@ -105,8 +183,7 @@
                   [(ngModel)]="nuevaEspecie.consejos"
                   class="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   required
-                  #Consejos="ngModel"
-              />
+                  #Consejos="ngModel"/>
             </div>
             <div class="relative mb-4">
               <label for="Poblacion" class="leading-7 text-sm text-gray-600">Poblacion</label>
@@ -117,8 +194,7 @@
                   [(ngModel)]="nuevaEspecie.poblacion"
                   class="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   required
-                  #Poblacion="ngModel"
-              />
+                  #Poblacion="ngModel"/>
             </div>
             <div class="relative mb-4">
               <label for="Id_Productos" class="leading-7 text-sm text-gray-600">Id_Productos</label>
@@ -129,18 +205,15 @@
                   [(ngModel)]="nuevaEspecie.idProductos"
                   class="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   required
-                  #Id_Productos="ngModel"
-              />
+                  #Id_Productos="ngModel"/>
             </div>
-
             <button
                 type="submit"
-                class="text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
-                [disabled]="!formulario.form.valid"
-            >
+                class="text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"[disabled]="!formulario.form.valid">
                 Enviar
             </button>
         </div>
     </form>
-</div>
+  </div>
 </section>
+-->
