@@ -24,7 +24,7 @@ namespace Aquality_api.Context
             builder.UseMySQL("server=localhost; database=aquality; user=root; password=Jur63nqetu$");
 
             //Eduardo
-            // builder.UseMySQL("server=localhost; database=aquality; user=root; password=admin");
+            //builder.UseMySQL("server=localhost; database=aquality; user=root; password=admin");
         }
         // Configura el modelo de datos y las relaciones entre entidades.
         protected override void OnModelCreating(ModelBuilder builder)

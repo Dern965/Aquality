@@ -6,6 +6,7 @@ import { FooterComponent } from './Common/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UsuarioService } from './Services/usuario.service';
 import { ProductoService } from './Services/producto.service';
+import { LoginService } from './Services/login.service';
 
 @Component({
   selector: 'app-root',
@@ -13,7 +14,7 @@ import { ProductoService } from './Services/producto.service';
   imports: [CommonModule, RouterOutlet, HeaderComponent, FooterComponent, HttpClientModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
-  providers: [UsuarioService, ProductoService]
+  providers: [UsuarioService, ProductoService,LoginService]
 })
 export class AppComponent {
   title = 'AqualityFront';

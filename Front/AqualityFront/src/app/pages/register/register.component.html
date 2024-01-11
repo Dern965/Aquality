@@ -5,9 +5,9 @@
         <!-- Contenedor flexible con estilos específicos y espacio entre elementos -->
         <form (ngSubmit)="enviarFormulario()" #formulario="ngForm">
             <div
-                class="lg:w-1/3 md:w-1/2 bg-gray-200 rounded-lg p-8 flex mx-auto flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md"
+                class="lg:w-1/3 md:w-1/2 bg-gray-900 rounded-lg p-8 flex mx-auto flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md"
             >
-                <h1 class="text-gray-900 text-lg mb-1 font-medium title-font">Registro - usuario</h1>
+                <h1 class="text-white-900 text-lg mb-1 font-medium title-font">Registrate!!!</h1>
 
 
                 <div class="relative mb-4">
@@ -89,43 +89,19 @@
                 </div>
 
                 <div class="relative mb-4">
-                  <label for="Dia_nacimiento" class="leading-7 text-sm text-gray-600">Dia Nacimiento</label>
-                  <input
-                      type="number"
-                      id="Dia_nacimiento"
-                      name="Dia_nacimiento"
-                      [(ngModel)]="nuevoUsuario.birth_Day"
+                    <label for="Historial" class="leading-7 text-sm text-gray-600">Fecha de Nacimiento</label>
+                    <input
+                      type="date"
+                      id="Fecha_nacimiento"
+                      name="Fecha_nacimiento"
+                      [(ngModel)]="nuevoUsuario.fnac"
                       class="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                       required
-                      #Dia_nacimiento="ngModel"
+                      #fecha_nacimiento="ngModel"
                   />
-                </div>
-                <div class="relative mb-4">
-                    <label for="Mes_nacimiento" class="leading-7 text-sm text-gray-600">Mes Nacimiento</label>
-                    <input
-                        type="number"
-                        id="Mes_nacimiento"
-                        name="Mes_nacimiento"
-                        [(ngModel)]="nuevoUsuario.birth_Month"
-                        class="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                        required
-                        #Mes_nacimiento="ngModel"
-                    />
-                  </div>
-                  <div class="relative mb-4">
-                    <label for="a_nacimiento" class="leading-7 text-sm text-gray-600">Año Nacimiento</label>
-                    <input
-                        type="number"
-                        id="a_nacimiento"
-                        name="a_nacimiento"
-                        [(ngModel)]="nuevoUsuario.birth_Year"
-                        class="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                        required
-                        #a_nacimiento="ngModel"
-                    />
-                  </div>
-                  <div class="relative mb-4">
-                    <label for="Historial" class="leading-7 text-sm text-gray-600">Historial (No se que va aqui xd)</label>
+                </div>    
+                  <!--<div class="relative mb-4">
+                    <label for="Historial" class="leading-7 text-sm text-gray-600">Historial</label>
                     <input
                         type="text"
                         id="Historial"
@@ -135,7 +111,7 @@
                         required
                         #Historial="ngModel"
                     />
-                  </div>
+                  </div>-->
                 <button
                     type="submit"
                     class="text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"

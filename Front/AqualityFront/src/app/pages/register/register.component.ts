@@ -20,9 +20,7 @@ export class RegisterComponent {
     phone: '',
     first_Name: '',
     last_Name: '',
-    birth_Day: 0,
-    birth_Month: 0,
-    birth_Year: 0,
+    fnac : '',
     idHistorial: 0
   };
   constructor (private uService : UsuarioService){
@@ -46,8 +44,6 @@ export interface ModelUsuario {
   phone: string,
   first_Name: string,
   last_Name: string,
-  birth_Day: number,
-  birth_Month: number,
-  birth_Year: number,
+  fnac : string,
   idHistorial: number
 }
