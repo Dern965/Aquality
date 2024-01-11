@@ -12,16 +12,17 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
 })
 
 //DESDE AQUI
-export class ProductosComponent {
+export class ProductsComponent {
   lista : DTOProducto[] = [];
   constructor(private pService: ProductoService){
     this.pService.GetProducts().subscribe(result => {
       this.lista = result.products;
+      console.log(this.lista);
     });
   }
 }
 export interface  DTOProducto {
-  idProducto: string,
+  idProducto: number,
   nombreProducto: string,
   materiales: string,
   fabricacion:string,

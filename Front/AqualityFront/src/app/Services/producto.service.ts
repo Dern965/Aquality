@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 export class ProductoService {
   constructor(private http: HttpClient) { }
   public GetProducts() : Observable<any>{
-    return this.http.get("https://localhost:7172/Products")
+    return this.http.get("https://localhost:7172/Productos")
   }
 }
 

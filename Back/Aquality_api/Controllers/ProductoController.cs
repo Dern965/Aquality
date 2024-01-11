@@ -32,9 +32,9 @@ namespace Aquality_api.Controllers
                     {
                         idProducto = item.idProducto,
                         nombreProducto = item.nombreProducto,
-                        materiales = item.materiales,
-                        fabricacion = item.fabricacion,
+                        descripcion = item.descripcion,
                         precio = item.precio,
+                        fabricacion = item.fabricacion,
                         disponibilidad = item.disponibilidad,
                         idTienda = item.idTienda,
                     });

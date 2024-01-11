@@ -1,18 +1,22 @@
 ﻿{
+    //Este archivo se utiliza para configurar cómo las solicitudes del cliente al API Gateway deben ser 
+    //redirigidas a los diferentes servicios downstream basados en la ruta y otros criterios definidos.
     "Routes": [
         {
-            "DownstreamPathTemplate": "/CarritosController",
-            "DownstreamScheme": "https",
+            // Configuración de la ruta para el controlador "CarritosController"
+            "DownstreamPathTemplate": "/CarritosController", // Ruta en el servicio downstream (API destino)
+            "DownstreamScheme": "https", // Protocolo usado para el servicio downstream
             "DownstreamHostAndPorts": [
                 {
                     "Host": "localhost",
                     "Port": 7260
                 }
             ],
-
-            "UpstreamPathTemplate": "/Carritos",
-            "UpstreamHttpMethod": []
+            "UpstreamPathTemplate": "/Carritos", // Ruta en el servicio upstream (API gateway)
+            "UpstreamHttpMethod": [] // Métodos HTTP permitidos para la ruta upstream
         },
+
+        // Configuraciones similares para las otras rutas.
 
         {
             "DownstreamPathTemplate": "/EspeciesController",
@@ -94,6 +98,7 @@
     ],
 
     "GlobalConfiguration": {
-        "BaseUrl": "https://localhost:7172"
+        // Configuración global del API Gateway
+        "BaseUrl": "https://localhost:7172" // URL base para el API Gateway
     }
 }

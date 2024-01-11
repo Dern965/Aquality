@@ -38,9 +38,7 @@ namespace Aquality_api.Controllers
                         phone = item.phone,
                         first_Name = item.first_Name,
                         last_Name = item.last_Name,
-                        birth_Day = item.birth_Day,
-                        birth_Month = item.birth_Month,
-                        birth_Year = item.birth_Year,
+                        fnac = item.fnac,
                         idHistorial = item.idHistorial
                     });
                 }
