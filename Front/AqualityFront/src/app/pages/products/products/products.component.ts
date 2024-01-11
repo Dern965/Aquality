@@ -1,14 +1,37 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { ProductoService } from '../../../Services/producto.service';
+import { RouterLink, RouterLinkActive } from '@angular/router';
 
 @Component({
   selector: 'app-products',
   standalone: true,
-  imports: [FormsModule],
+  imports: [FormsModule, RouterLink, RouterLinkActive],
   templateUrl: './products.component.html',
   styleUrl: './products.component.scss'
 })
+
+//DESDE AQUI
+export class ProductosComponent {
+  lista : DTOProducto[] = [];
+  constructor(private pService: ProductoService){
+    this.pService.GetProducts().subscribe(result => {
+      this.lista = result.products;
+    });
+  }
+}
+export interface  DTOProducto {
+  idProducto: string,
+  nombreProducto: string,
+  materiales: string,
+  fabricacion:string,
+  price: number,
+  disponibilidad: string,
+  idTienda: string
+}
+//HASTA AQUI, ES DE JURGEN
+
+/*
 export class ProductsComponent {
   lista : ModelEspecie[] = [];
 
@@ -49,3 +72,4 @@ export interface ModelEspecie {
    poblacion :string,
    idProductos :string
 }
+*/
