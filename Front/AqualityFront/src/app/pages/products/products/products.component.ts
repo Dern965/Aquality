@@ -16,8 +16,8 @@ export class ProductsComponent {
   lista : DTOProducto[] = [];
   constructor(private pService: ProductoService){
     this.pService.GetProducts().subscribe(result => {
-      this.lista = result.products;
-      console.log(this.lista);
+      this.lista = result;
+      console.log(result);
     });
   }
 }
